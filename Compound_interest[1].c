@@ -2,7 +2,7 @@
 /*
 Author:Diana
 Date:25/09/2024
-CT101/G/23407/24
+REG NO:CT101/G/23407/24
 */
 #include<stdio.h>
 #include<math.h>
@@ -17,16 +17,12 @@ int main(){
     printf("Enter time per year:");
     scanf("%f",&t);
     
-    printf("The compound interest is:");
+    printf("The compound interest is:%.2f",ci);
+    printf("The amount is:%.2f",amt);
     amt=p*pow(1+r/100,t);
     ci=amt-p;
     
     printf("%.2f,");
-
-
-
-
-
 
 return 0;
 }
