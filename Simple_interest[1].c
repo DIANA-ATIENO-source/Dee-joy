@@ -2,7 +2,7 @@
 /*
 Author:Diana
 Date:25/09/2024
-CT101/23407/24
+REG NO:CT101/23407/24
 */
 #include<stdio.h>
 int main(){
